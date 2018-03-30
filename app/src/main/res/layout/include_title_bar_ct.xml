@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lyman="http://schemas.android.com/apk/res-auto"
+    android:background="@color/title_bar_bg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/paddingView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <ly.customselectitem.CustomSelectItem
+        android:id="@+id/cusTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        lyman:centerTypeSelect="text"
+        lyman:centerTextSelect="标题"
+        lyman:centerTextSizeSelect="@dimen/text_size_big02"
+        lyman:centerTextColorSelect="@color/white"/>
+</LinearLayout>
