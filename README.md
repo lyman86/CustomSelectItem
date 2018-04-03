@@ -9,6 +9,11 @@ maven { url 'https://jitpack.io' }
 <br>
 compile 'com.github.lyman86:CustomSelectItem:v1.0.1'  
 
+
+若是嫌点击范围不够大，可以动态设置   
+<br>
+lyman:clickRangeEx="20dp"
+
 ![image](https://github.com/lyman86/CustomSelectItem/blob/master/app/screenshots/0D5AE41C-5E7D-4043-8A3F-225FB35154B5.png)
 
 ![image](https://github.com/lyman86/CustomSelectItem/blob/master/app/screenshots/2866CEC1-8B3C-4343-A99F-36792EB34494.png)
