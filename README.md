@@ -7,7 +7,7 @@ maven { url 'https://jitpack.io' }
 <br>
 第二部 在app的build.gradle里加上 
 <br>
-compile 'com.github.lyman86:CustomSelectItem:v1.0.0'  
+compile 'com.github.lyman86:CustomSelectItem:v1.0.1'  
 
 ![image](https://github.com/lyman86/CustomSelectItem/blob/master/app/screenshots/0D5AE41C-5E7D-4043-8A3F-225FB35154B5.png)
 
