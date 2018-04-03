@@ -14,6 +14,8 @@ compile 'com.github.lyman86:CustomSelectItem:v1.0.1'  
 <br>
 lyman:clickRangeEx="20dp"
 
+![image](https://github.com/lyman86/CustomSelectItem/blob/master/app/screenshots/B0384677-0C2D-4735-95D2-5F5C94E4F188.png)
+
 ![image](https://github.com/lyman86/CustomSelectItem/blob/master/app/screenshots/0D5AE41C-5E7D-4043-8A3F-225FB35154B5.png)
 
 ![image](https://github.com/lyman86/CustomSelectItem/blob/master/app/screenshots/2866CEC1-8B3C-4343-A99F-36792EB34494.png)
