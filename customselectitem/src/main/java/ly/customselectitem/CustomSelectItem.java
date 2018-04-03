@@ -770,6 +770,11 @@ public class CustomSelectItem extends View implements View.OnClickListener {
         postInvalidate();
     }
 
+    public void setLeftSideText(String leftSideText) {
+        this.leftSideText = leftSideText;
+        postInvalidate();
+    }
+
     public void setRightSideText(String rightSideText, int rightSideTextColor) {
         this.rightSideText = rightSideText;
         this.rightSideTextColor = rightSideTextColor;
@@ -800,9 +805,21 @@ public class CustomSelectItem extends View implements View.OnClickListener {
         postInvalidate();
     }
 
+    public void setRightSideImageScouce(int imageScouce) {
+        this.rightSideImageScource = imageScouce;
+        rightType = RIGHT_SIDE_TYPE_IMAGE;
+        postInvalidate();
+    }
+
     public void setLeftImageScouce(int imageScouce) {
         this.leftImageScource = imageScouce;
         leftType = LEFT_TYPE_IMAGE;
+        postInvalidate();
+    }
+
+    public void setLeftSideImageScouce(int imageScouce) {
+        this.leftSideImageScource = imageScouce;
+        leftType = LEFT_SIDE_TYPE_IMAGE;
         postInvalidate();
     }
 
